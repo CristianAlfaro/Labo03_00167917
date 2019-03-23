@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0D47A1</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="letra">#ffffff</color>
+    <color name="fondo">#0D47A1</color>
+    <color name="fondoShare">#1B5E20</color>
+</resources>

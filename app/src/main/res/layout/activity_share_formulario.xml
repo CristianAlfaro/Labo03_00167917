@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shareFormulario"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/fondoShare">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formulario Recibido"
+        android:textSize="30dp"
+        android:textColor="@color/letra" />
+
+    <TextView
+        android:id="@+id/tv_nameShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="no name received"
+        android:textColor="@color/letra"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_lastnameShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/letra"
+        android:layout_gravity="left"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+        android:text="no lastname received"/>
+
+    <TextView
+        android:id="@+id/tv_carnetShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/letra"
+        android:layout_gravity="left"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+        android:text="no carnet received"/>
+
+    <TextView
+        android:id="@+id/tv_emailShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/letra"
+        android:layout_gravity="left"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+        android:text="no email received"/>
+
+
+
+</LinearLayout>
